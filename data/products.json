@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Nike",
+        "size": "s",
+        "color": "white",
+        "price": 330,
+        "stock": 42
+    },
+    {
+        "id": 2,
+        "name": "Adidas",
+        "size": "m",
+        "color": "Grey",
+        "price": 530,
+        "stock": 23
+    },
+    {
+        "id": 3,
+        "name": "Bata",
+        "size": "l",
+        "color": "Black",
+        "price": 560,
+        "stock": 27
+    },
+    {
+        "id": 4,
+        "name": "Bata",
+        "size": "l",
+        "color": "Black",
+        "price": 560,
+        "stock": 27
+    },
+    {
+        "id": 5,
+        "name": "Apex",
+        "size": "l",
+        "color": "Black",
+        "price": 560,
+        "stock": 27
+    },
+    {
+        "id": 6,
+        "name": "Crescent",
+        "size": "l",
+        "color": "Black",
+        "price": 560,
+        "stock": 27
+    },
+    {
+        "id": 7,
+        "name": "Orion",
+        "size": "xl",
+        "color": "Black",
+        "price": 1060,
+        "stock": 25
+    },
+    {
+        "id": 8,
+        "name": "Lotto",
+        "size": "xl",
+        "color": "Black",
+        "price": 1060,
+        "stock": 25
+    },
+    {
+        "id": 9,
+        "name": "Bay",
+        "size": "xl",
+        "color": "Red",
+        "price": 1160,
+        "stock": 69
+    }
+]
