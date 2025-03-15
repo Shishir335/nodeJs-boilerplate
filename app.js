@@ -5,6 +5,7 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
+const compression = require('compression');
 
 const productRouter = require('./routes/productRoutes');
 const userRouter = require('./routes/userRoutes');
@@ -48,6 +49,8 @@ app.use(hpp());
 
 // SERVING STATIC FILE
 app.use(express.static(`${__dirname}/public`));
+
+app.use(compression());
 
 // TEST MIDDLEWARE
 app.use((req, res, next) => {

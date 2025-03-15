@@ -46,7 +46,6 @@ reviewSchema.statics.calcAverageRatings = async function (productId) {
             }
         }
     ]);
-    console.log(stats);
 
     if (stats.length > 0) {
         await Product.findByIdAndUpdate(productId, {
@@ -68,7 +67,6 @@ reviewSchema.post('save', function () {
 
 reviewSchema.pre(/^findOneAnd/, async function (next) {
     this.r = await this.model.findOne(this.getQuery()); // Fetch document properly
-    console.log(this.r);
     next();
 });
 
